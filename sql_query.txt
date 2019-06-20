@@ -1,0 +1,9 @@
+CREATE TABLE `companies` (
+ `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+ `name` varchar(100) NOT NULL,
+ `registration_code` int(10) NOT NULL,
+ `email` varchar(100)DEFAULT "example@gmail.com",
+ `phone` varchar(20)DEFAULT "XXX-XXX-XXXX",
+ `comm` varchar(100)DEFAULT "none",
+ PRIMARY KEY (`id`)
+)
